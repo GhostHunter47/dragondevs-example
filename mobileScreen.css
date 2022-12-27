@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1200px) {
+    body{
+        background-position: center;
+        background-size: cover;
+    }
+    header{
+        width: 100vw;
+    }
+    main{
+        height: 120vh;
+    }
+    footer{
+        width: 100vw;
+    }
+    nav{
+        width: 100vw;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #dragon{
+        width: 0;
+        height: 0;
+    }
+
+    .logo{
+        margin-top: 20px;
+        display: flex;
+        flex-flow: column;
+    }
+    ul{
+        margin-right: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        margin-left: 10px;
+    }
+    input{
+        width: 350px;
+        margin-right: 25px;
+    }
+    #searchIcon{
+        position: relative;
+        right: 60px;
+    }
+
+}
